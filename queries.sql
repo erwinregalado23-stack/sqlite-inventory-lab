@@ -1,4 +1,3 @@
--- Part 2: Create Table
 CREATE TABLE products (
     product_id INTEGER PRIMARY KEY,
     product_name TEXT NOT NULL,
@@ -8,7 +7,6 @@ CREATE TABLE products (
     supplier TEXT
 );
 
--- Part 3: CRUD
 INSERT INTO products (product_id, product_name, category, unit_price, quantity_in_stock, supplier)
 VALUES
 (1, 'Wireless Mouse', 'Electronics', 15.99, 120, 'TechSource'),
